@@ -1,7 +1,8 @@
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
-from keyboard_layout_win_tr import KeyboardLayout
+from adafruit_hid.keyboard_layout_us import KeyboardLayout
+#from keyboard_layout_win_tr import KeyboardLayout # Türkçe klavye dizilimi için üsttekini yorum alın bunu yorumdan çıkarın.
 import busio
 import board
 import time
